@@ -1,288 +1,306 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-*{
-    padding:0px;
-    margin: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
-    font-family: 'Inter', sans-serif;
-}
-header{
-    height: 100vh;
-    background-image: url(images/bannar.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0,0,0,.6);
-    background-blend-mode: overlay;
-    width:100%;
-    margin-bottom:100px;   
+body {
+  font-family: "Inter", sans-serif;
 }
 
-/* ----------home banner container style start from here here----------------- */
-
-.home{
-  text-align: center;   
+/*----- header style Start----- */
+header {
+  height: 100vh;
+  background-image: url(images/bannar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
-.title{
+/*------ Header style End------ */
+
+/* /------Home banner container style start from here------ */
+
+.home {
+  text-align: center;
+}
+
+.title {
   padding-top: 210px;
-  color:white;
+  color: white;
   font-style: normal;
-  font-size:65px;
+  font-size: 65px;
   font-weight: 700;
   line-height: 79px;
-
 }
 
-.description{
-    color: #FFFFFF;
-    font-size:18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.description {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.donate-btn{
-    padding: 15px 16px;
-    border-radius: 5px;
-    background-color: #FF5959;
-    border:none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.fa-hand-holding-medical{
-    padding: 5px;
+.donate-btn {
+  padding: 15px 16px;
+  border-radius: 5px;
+  background-color: #ff5959;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-/* Start donate today */
+.fa-hand-holding-medical {
+  padding: 5px;
+}
+/* ------Home banner container style End from here----- */
 
-.donation-amount-container{
-    text-align: center;
+/* /---- Donate today style start------ */
+*/ .donation-amount-container {
+  text-align: center;
 }
 
-.section-title h1{
-    color: #121212;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 54px;
-    margin-bottom: 20px;
+.section-title h1 {
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  margin-bottom: 20px;
 }
 
+.section-title p {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.all-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-items {
+  color: #707070;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 50px;
+}
+.category {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#donate-amount {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  color: #ff5959;
+}
+
+.amount-input {
+  color: #ebe6e6;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  margin-left: 700px;
+}
+
+hr {
+  width: 765px;
+  margin: 10px auto;
+}
+
+.donate-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.primary-button {
+  margin-top: 25px;
+  margin-left: 718px;
+}
+
+/*------Donate today style  End------ */
+
+/*---- Donate plan style start----- */
+
+.section-title h1 {
+  text-align: center;
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  margin-top: 100px;
+}
+
+.section-title p {
+  color: #707070;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.package-description {
+  display: flex;
+  margin: 50px 180px 30px;
+  line-height: 24px;
+}
+.package-description-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.package-descript-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  width: 360px;
+  height: 350px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.icon1,
+.icon-img1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.icon-img1,
+.icon-img2,
+.icon-img3 {
+  margin-bottom: 25px;
+}
+
+.icon2,
+.icon-img2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.icon3,
+.icon-img3 {
+  background-color: #fff4d6;
+}
+
+/*----- Donate plan style End----- */
+
+/* -----Gallery style Srart------ */
+
+.gallery-container {
+  background-color: #f4efef;
+ 
+}
+
+.highlight {
+  color: #ff5959;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 20px auto;
+  padding-top: 30px;
+}
 .section-title p{
-    color: #707070;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-
+    padding: 15px 0;
 }
 
-.all-items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  padding-bottom: 40px;
 }
 
-.all-items{
-    color: #707070;
-    font-weight: 900;
-    font-size: 30px;
-    padding:50px;
-
+.gallery img {
+  width: 310px;
+  height: 201px;
+  cursor: zoom-in;
+ margin-left: 10px;
+ margin-bottom: 10px;
+  border-radius: 8px;
 }
-.category{
-    padding: 30px;
-    margin-bottom:10px;
-  
-}
+/*   ------Gallery style End-----*/
 
-#donate-amount{
-    background: #FFEEEE;
-    border:2px solid #FF5959;
-    border-radius: 5px;
-    color:#FF5959;
-    
+/* -----Get Updates style start----- */
+.section-title {
+  margin-top: 80px;
 }
-
-.amount-input{
-    color: #B3B3B3;
-    font-size: 16px;
-    border:none;
-    font-weight: 400;
-    text-align: center;
-    outline: none;
+.input-from {
+  text-align: center;
+  background-color: #fff4d6;
+  border-radius: 2px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 200px;
 }
 
-hr{
-    width: 765px;
-    margin:10px auto; 
+.form-control {
+  background-color: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 40px;
+  margin-top: 70px;
+  height: 48px;
+  width: 280px;
+}
+.btn-main {
+  background-color: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  font-size: 16px;
+  width: 157px;
+  height: 48px;
+  border: none;
+  outline: none;
+  margin-left: -5px;
+}
+/*-----Get Update style End------ */
+
+/*------  Footer area Start-------*/
+.footer-container {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.donate-btn a{
-    text-decoration: none;
-    color:white;
+.footer {
+  padding: 30px;
+  background-color: black;
+  color: white;
 }
 
-.primary-button{
-    margin-top: 18px;
+.footer h2 {
+  font-family: "Lobster";
+  font-style: italic;
+  font-weight: 400;
+  color: #ff5959;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
 }
-
-/* End donate today */
-
-/* donate plane style start */
-
-.section-title h1{
-    text-align: center; 
-    color: #121212;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 54px;
-    margin-top: 100px;
+.footer p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  color: #d9dbe1;
+  font-size: 16px;
+  line-height: 24px;
 }
-
-.section-title p{
-    color: #707070;
-    text-align: center; 
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    
-}
-.package-description{
-    display: flex;
-    margin: 50px 180px 30px;
-    line-height:24px ;
-}
-
-.icon1, .icon2, .icon3{
-    width: 360px;
-    height: 350px;
-    margin-left: 20px;
-    border-radius: 5px;
-    padding-top: 50px;
-}
-
-.icon1, .icon-img1{
-    background-color: rgba(79, 157, 166, 0.1);
-}
-
-.icon2, .icon-img2{
-    background-color: rgba(255, 89, 89, 0.1);
-   
-}
-.icon3, .icon-img3{
-    background-color: #FFF4D6;
-  
-}
-
-.icon1 h1{
-    padding-bottom: 40px;
-}
-/* donate plane style End */
-
-
-/* section gallery style Srart */
-
-.section-gallery-container{
-    background-color: #f4efef;
-    padding:2px 0;
-}
-
-.highlight{
-    color:#FF5959
-}
-
-.section-title h2{
-    text-align: center;
-    font-size: 45px;
-    margin: 20px auto;
-}
-
-.gallery{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    margin:50px auto;
-}
-
-.photo img{
-    width: 100%;
-    height: 200px;
-    cursor:zoom-in;
-    object-fit: cover;
-    border: 3px solid #f3e9e9;
-}
-/*  ssection gallery style End*/
-
-
-/* Get Updates style start */
-.input-from{
-     text-align: center;
-     background-color: #FFF4D6;
-     border-radius:2px;
-     margin-top:50px;
-     margin-bottom: 100px;
-     margin-left: 300px;
-     margin-right: 300px;
-     height: 200px;
-}
-
-.form-control{
-    background-color:#D9D9D9;;
-    border-radius: 5px 0px 0px 5px;
-    color: white;
-    border: none;
-    font-size: 16px;
-    padding-left: 40px;
-    margin-top:70px ;
-    height: 48px;
-    width:280px ;
-
-}
-.btn-main{
-    background-color: #FF5959;
-    border-radius: 0px 5px 5px 0px;
-    color: white;
-    font-size: 16px;
-    width: 157px;
-    height: 48px;
-    border: none;
-   
-}
-
-/* Get Update style End */
-
-
-/* start footer area*/
-.footer-container{
-    text-align: center;
-    margin-top: 10px;
-}
-
-.footer{
-    padding:30px;
-    background-color: black;
-    color: white;
-}
-
-.footer h2{
-    font-family: 'Lobster';
-    font-style: italic;
-    font-weight: 400;
-    color:#FF5959;
-    font-size:36px;
-    line-height: 44px;
-    letter-spacing: 0.5px;
-    margin-bottom: 24px;
-    
-}
-.footer p{
-   font-family: 'Manrope';
-   font-style: normal;
-   font-weight: 400;
-   color: #D9DBE1;
-   font-size: 16px;
-   line-height: 24px;
-}
-/* End footer area*/
+/* ----Footer area End ------*/
