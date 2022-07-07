@@ -109,7 +109,7 @@ header {
   border: none;
   outline: none;
   font-weight: 400;
-  margin-left: 700px;
+  margin-left: 660px;
 }
 
 hr {
@@ -124,7 +124,7 @@ hr {
 
 .primary-button {
   margin-top: 25px;
-  margin-left: 718px;
+  margin-left: 670px;
 }
 
 /*------Donate today style  End------ */
@@ -197,7 +197,6 @@ hr {
 
 .gallery-container {
   background-color: #fef4f4;
- 
 }
 
 .highlight {
